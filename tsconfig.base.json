@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@shared/*": [
+                "libs/shared/src/*"
+            ],
+            "@modules/*": [
+                "apps/api-gateway/src/modules/*"
+            ]
+        }
+    }
+}
